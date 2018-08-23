@@ -1,12 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spider Game.Plugins", "Spider Game.Plugins.csproj", "{52BB1B50-EE4B-7F79-D02F-D2A957B0AF33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spider Game", "Spider Game.csproj", "{D4D3B90C-9C2D-5060-8B71-2201727759B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spider Game.Editor.Plugins", "Spider Game.Editor.Plugins.csproj", "{3995425A-291C-C575-AA70-3D7E36FB0E98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spider Game.Editor", "Spider Game.Editor.csproj", "{4FE6B4BC-62D2-3AFD-F9D0-E81D84BCB7F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52BB1B50-EE4B-7F79-D02F-D2A957B0AF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BB1B50-EE4B-7F79-D02F-D2A957B0AF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BB1B50-EE4B-7F79-D02F-D2A957B0AF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BB1B50-EE4B-7F79-D02F-D2A957B0AF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D3B90C-9C2D-5060-8B71-2201727759B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D3B90C-9C2D-5060-8B71-2201727759B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D3B90C-9C2D-5060-8B71-2201727759B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D3B90C-9C2D-5060-8B71-2201727759B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3995425A-291C-C575-AA70-3D7E36FB0E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3995425A-291C-C575-AA70-3D7E36FB0E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3995425A-291C-C575-AA70-3D7E36FB0E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3995425A-291C-C575-AA70-3D7E36FB0E98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE6B4BC-62D2-3AFD-F9D0-E81D84BCB7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE6B4BC-62D2-3AFD-F9D0-E81D84BCB7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE6B4BC-62D2-3AFD-F9D0-E81D84BCB7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE6B4BC-62D2-3AFD-F9D0-E81D84BCB7F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
