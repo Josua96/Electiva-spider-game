@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 63f4a30f5731329418b381f3df766a4e
+guid: c2edf2a54378bb64c859f5c753d9259a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -53,12 +53,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: gunmetal
-    second: {fileID: 2100000, guid: a8ad230c5a5ab3d488c7db53e860e668, type: 2}
+    second: {fileID: 2100000, guid: 1411f34b76e33264f8b05cac4e1b52ef, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: scope_mat1
-    second: {fileID: 2100000, guid: 4217c74adac758e44b0839a1a186b0b0, type: 2}
+    second: {fileID: 2100000, guid: 6a37afe81195d95449b6834f08426963, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
