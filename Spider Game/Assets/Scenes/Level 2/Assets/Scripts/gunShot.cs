@@ -1,4 +1,5 @@
 ﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -23,20 +24,20 @@ public class gunShot : MonoBehaviour {
     void Update () {
 
         if (Input.GetButtonDown("Fire1")) {
-            Shot();
+            StartCoroutine(Shot()); 
              
         }
 		
 	}
 
-    void Shot() {
+    IEnumerator Shot() {
         source.Play();
-        //gunFlare.Play();
+        gunFlare.Play();
         source.volume =shotvolume;
         
         source.PlayOneShot(audios[0]);
 
-
+        yield return new WaitForSeconds(0.05F);
         RaycastHit hit;
 
         if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range)){
@@ -69,7 +70,19 @@ public class gunShot : MonoBehaviour {
                 source.PlayOneShot(audios[4]);
 
             }
+
+            else if (hit.transform.tag == "materialMadera")
+            {
+                source.volume = materialHitVolume;
+                source.PlayOneShot(audios[5]);
+
+            }
         }
+        
 
     }
+
+    
+       
+    
 }
